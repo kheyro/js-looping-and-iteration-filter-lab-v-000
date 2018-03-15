@@ -15,4 +15,5 @@ function matchName(arr, find) {
       newObj = Object.assign({}, arr, user)
     }
   }
+  return newObj
 }
