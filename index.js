@@ -9,7 +9,7 @@ function fuzzyMatch(arr, name) {
 }
 
 function matchName(arr, find) {
-  let newObj = {}
+  let newObj = []
   for (const user of arr) {
     if (user.name === find) {
       newObj.push(user)
