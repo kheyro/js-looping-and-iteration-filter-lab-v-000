@@ -8,6 +8,11 @@ function fuzzyMatch(arr, name) {
   return arr.filter(function (driver) { return driver.slice(0, name.length) === name })
 }
 
-function matchName(arr, name) {
-  return 
+function matchName(arr, find) {
+  let newObj = {}
+  for (const user of arr) {
+    if (user.name === find) {
+      newObj = Object.assign({}, arr, user)
+    }
+  }
 }
