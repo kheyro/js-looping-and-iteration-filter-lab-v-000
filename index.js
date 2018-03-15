@@ -7,3 +7,7 @@ function findMatching(arr, name) {
 function fuzzyMatch(arr, name) {
   return arr.filter(function (driver) { return driver.slice(0, name.length) === name })
 }
+
+function matchName(arr, name) {
+  return 
+}
