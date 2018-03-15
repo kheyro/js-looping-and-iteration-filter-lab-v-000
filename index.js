@@ -12,7 +12,7 @@ function matchName(arr, find) {
   let newObj = {}
   for (const user of arr) {
     if (user.name === find) {
-      newObj = Object.assign({}, arr, user)
+      newObj.push(user)
     }
   }
   return newObj
